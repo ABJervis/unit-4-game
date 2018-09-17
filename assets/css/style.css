@@ -1,0 +1,18 @@
+body {
+    background: url("../images/escheresque_ste/escheresque_ste_@2X.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+}
+
+#header {
+    color: white;
+    align-content: center;
+    background: transparent;
+}
+
+#rules {
+    color: white;
+    align-content: center;
+
+}
