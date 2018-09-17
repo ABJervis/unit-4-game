@@ -2,6 +2,7 @@ body {
     background: url("../images/escheresque_ste/escheresque_ste_@2X.png");
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    line-height: 20px;
    
 }
 
@@ -16,3 +17,16 @@ body {
     align-content: center;
 
 }
+
+.Jewel {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+    align-content: center;
+    
+}
+
+#number,#score,#tally {
+    color: white;
+}
+
