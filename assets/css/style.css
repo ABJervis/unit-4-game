@@ -1,8 +1,8 @@
 body {
     background: url("../images/escheresque_ste/escheresque_ste_@2X.png");
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
     line-height: 20px;
+    text-align: center;
    
 }
 
@@ -10,23 +10,30 @@ body {
     color: white;
     align-content: center;
     background: transparent;
+    margin-top: 10px;
+    text-align: center;
 }
 
 #rules {
-    color: white;
-    align-content: center;
-
+    margin-top: -20px;
+    color: rgb(182, 178, 178);
+    text-align: center;
 }
 
-.Jewel {
+
+#number,#score,#tally-win,#tally-lose {
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+    align-content: center;
+}
+
+#tally-lose {
+    margin-bottom: 40px;
+}
+
+.jewel {
     max-width: 80px;
     max-height: 80px;
     margin-right: 10px;
-    align-content: center;
-    
 }
-
-#number,#score,#tally {
-    color: white;
-}
-
