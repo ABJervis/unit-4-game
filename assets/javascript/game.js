@@ -32,18 +32,41 @@ jewelNumbers();
 
 
 //link onclick to jewels
+//tally for score, wins, losses - needs to be attributed within the click function due to changes with every click
+//conditionals - compare computer number to user number
 
 $(document).ready(function(){
     $("#one").click(function(){
         total = total + jewelValues[0]
         $("#addedScore").text(total);
-    });
+
+    if (total === computerNumber){
+        wins ++
+        $('#winCount').text(wins)
+    }
+
+    else if (total > computerNumber){
+        losses ++
+        $('#lossCount').text(losses)
+    }
 });
+});
+
 
 $(document).ready(function(){
     $("#two").click(function(){
         total = total + jewelValues[1]
         $("#addedScore").text(total);
+
+        if (total === computerNumber){
+            wins ++
+            $('#winCount').text(wins)
+        }
+    
+        else if (total > computerNumber){
+            losses ++
+            $('#lossCount').text(losses)
+        }
     });
 });    
 
@@ -51,6 +74,16 @@ $(document).ready(function(){
     $("#three").click(function(){
         total = total + jewelValues[2]
         $("#addedScore").text(total);
+
+        if (total === computerNumber){
+            wins ++
+            $('#winCount').text(wins)
+        }
+    
+        else if (total > computerNumber){
+            losses ++
+            $('#lossCount').text(losses)
+        }
     });
 });
 
@@ -58,15 +91,20 @@ $(document).ready(function(){
     $("#four").click(function(){
         total = total + jewelValues[3]
         $("#addedScore").text(total);
+
+        if (total === computerNumber){
+            wins ++
+            $('#winCount').text(wins)
+        }
+    
+        else if (total > computerNumber){
+            losses ++
+            $('#lossCount').text(losses)
+        }
     });
 });           
 
 
-//execute addition
-
-//conditionals - compare computer number to user number
-
-//tally for score, wins, losses
 
 //reset game
 
