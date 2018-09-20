@@ -4,6 +4,14 @@
 var computerNumber = Math.floor(Math.random() * (120 - 19) + 19);
 console.log(computerNumber)
 
+//display computer chosen number
+
+$(document).ready(function(){
+    $("#compSelection").text(computerNumber);
+
+});
+
+
 //define variables
 
 var jewelValues = [];
